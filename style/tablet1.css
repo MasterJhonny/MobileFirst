@@ -1,0 +1,18 @@
+/* Media Queries for tablet of 600px */
+.table__model--title {
+    text-align: center;
+    padding: 1.8rem 0;
+}
+.main__planes--carousel {
+    justify-content: center;
+    padding: 20px 0;
+}
+.main__planes--carousel::-webkit-scrollbar {
+    display: none;
+}
+.main--tables--container::-webkit-scrollbar {
+    display: none;
+}
+.footer {
+    background-color: var(--warm-black);
+}

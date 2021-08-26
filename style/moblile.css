@@ -30,6 +30,7 @@ html {
     font-family: "DM Sans", sans-serif;
     scroll-behavior: smooth;
 }
+
 /* style header */
 .header {
     position: relative;
@@ -104,6 +105,7 @@ html {
     margin-left: 1.4rem;
 }
 
+/* styles of main */
 .main {
     width: 100%;
     height: auto;
@@ -117,8 +119,6 @@ html {
     justify-content: center;
     width: 100%;
     height: auto;
-    /* padding-top: 80px;
-    padding-bottom: 30px; */
     align-items: center;
     text-align: center;
 }
@@ -128,7 +128,7 @@ html {
     height: 195px;
     margin-top: 59px;
     margin-bottom: 40px;
-    background: url(./assets/img/bitcoin.svg) center/cover no-repeat;
+    background: url(../assets/img/bitcoin.svg) center/cover no-repeat;
 }
 
 .main--exchange--container--title {
@@ -151,6 +151,7 @@ html {
     text-align: center;
     color: #757575;
 }
+
 /* styles carousel tables */
 .main--tables--container {
     width: 100%;
@@ -235,7 +236,7 @@ html {
     display: inline-block;
     width: 1.2rem;
     height: 1.2rem;
-    background: url(./assets/icons/trending-down.svg);
+    background: url(../assets/icons/trending-down.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -245,7 +246,7 @@ html {
 }
 
 .table__model--container .graph--dos {
-    background: url(./assets/icons/trending-up.svg);
+    background: url(../assets/icons/trending-up.svg);
 } 
 
 .table__model--update {
@@ -291,7 +292,7 @@ html {
 .product__logo {
     width: 4.1rem;
     height: 2.5rem;
-    background: url(./assets/icons/group16.svg);
+    background: url(../assets/icons/group16.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,16 +352,16 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(./assets/icons/clock.svg);
+    background: url(../assets/icons/clock.svg);
 }
 .incon--eye {
-    background: url(./assets/icons/eye.svg);
+    background: url(../assets/icons/eye.svg);
 }
 .incon--dollar {
-    background: url(./assets/icons/dollar-sign.svg);
+    background: url(../assets/icons/dollar-sign.svg);
 }
 .incon--checked {
-    background: url(./assets/icons/check-circle.svg);
+    background: url(../assets/icons/check-circle.svg);
 }
 .card__item--title {
     font-size: 1.8em;
@@ -382,7 +383,7 @@ html {
     justify-content: center;
     width: 100%;
     height: 387px;
-    background: url(./assets/img/bitcoinbaby2x.jpg);
+    background: url(../assets/img/bitcoinbaby2x.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -432,6 +433,7 @@ html {
     text-align: center;
     color: #757575;
 }
+
 /* styles carousel items precios */
 .main__planes--carousel {
     width: 100%;
@@ -525,7 +527,7 @@ html {
     width: 24px;
     height: 24px;
     margin-left: 8px;
-    background: url(./assets/icons/arrow-right1.svg);
+    background: url(../assets/icons/arrow-right1.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -558,90 +560,3 @@ html {
     margin-right: 20px;
 }
 
-/* Media Queries */
-@media only screen and (min-width: 600px){
-    .table__model--title {
-        text-align: center;
-        padding: 1.8rem 0;
-    }
-    .main__planes--carousel {
-        justify-content: center;
-        padding: 20px 0;
-    }
-    .main__planes--carousel::-webkit-scrollbar {
-        display: none;
-    }
-    .main--tables--container::-webkit-scrollbar {
-        display: none;
-    }
-    .footer {
-        background-color: var(--warm-black);
-    }
-}
-
-@media only screen and (min-width: 900px){
-    .header {
-        height: 480px;
-        justify-content: flex-start;
-    }
-    .header--logo {
-        width: 174px;
-        height: 28px;
-        margin-top: 103px;
-    }
-    .header--texto h1 {
-        font-size: 40px;
-        line-height: 42px;
-    }
-    .header--texto p {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .btn--primary {
-        top: 454px;
-    }
-    .main--tables--container {
-        justify-content: center;
-    }
-    .main__comodin {
-        height: 299px;
-        background-image: url(./assets/img/bitcoinbaby2.jpg);
-    }
-    .main__comodin--title {
-        font-size: 36px;
-        top: calc(50% - 13px);
-    }
-    .product__text {
-        margin-bottom: 20px;
-    }
-    .product__cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .product__cards--item {
-        margin: 20px;
-    }
-    .main__planes--carousel:hover .item {
-        opacity: .5;
-        transition: 500ms;
-        animation-delay: 500s;
-    }
-    .planes__carousel--item:hover .item {
-        opacity: 1;
-        transition: 500ms;
-        animation-delay: 500s;
-    }
-}
-
-@media only screen and (min-width: 1152px){
-    .header {
-        height: 440px;
-    }
-    .header--logo {
-        margin-top: 80px;
-    }
-    .btn--primary {
-        top: 415px;
-    }
-}

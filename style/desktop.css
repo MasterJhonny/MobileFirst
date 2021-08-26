@@ -1,0 +1,10 @@
+/* Media queries for desktop browsers */
+.header {
+    height: 440px;
+}
+.header--logo {
+    margin-top: 80px;
+}
+.btn--primary {
+    top: 415px;
+}

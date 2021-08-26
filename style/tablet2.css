@@ -1,0 +1,53 @@
+/* Media queries for tablet two of 900px  */
+.header {
+    height: 480px;
+    justify-content: flex-start;
+}
+.header--logo {
+    width: 174px;
+    height: 28px;
+    margin-top: 103px;
+}
+.header--texto h1 {
+    font-size: 40px;
+    line-height: 42px;
+}
+.header--texto p {
+    font-size: 20px;
+    line-height: 24px;
+}
+.btn--primary {
+    top: 454px;
+}
+.main--tables--container {
+    justify-content: center;
+}
+.main__comodin {
+    height: 299px;
+    background-image: url(../assets/img/bitcoinbaby2.jpg);
+}
+.main__comodin--title {
+    font-size: 36px;
+    top: calc(50% - 13px);
+}
+.product__text {
+    margin-bottom: 20px;
+}
+.product__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product__cards--item {
+    margin: 20px;
+}
+.main__planes--carousel:hover .item {
+    opacity: .5;
+    transition: 500ms;
+    animation-delay: 500s;
+}
+.planes__carousel--item:hover .item {
+    opacity: 1;
+    transition: 500ms;
+    animation-delay: 500s;
+}
